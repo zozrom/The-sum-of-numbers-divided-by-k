@@ -19,9 +19,9 @@ int main()
 	{
 		if (arr[i]%k==0)
 		{
-			sum += arr[i] / k;
+			sum += arr[i] ;
 		}
 	}
-	cout << sum << endl;
+	cout <<"The sum of numbers divided by k : "<< sum << endl;
 	system("pause");
 }
